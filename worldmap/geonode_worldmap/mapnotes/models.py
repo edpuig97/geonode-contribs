@@ -1,7 +1,8 @@
 from django.contrib.gis.db import models
 from geonode.people.models import Profile
 from geonode.maps.models import Map
-from django.utils.translation import ugettext_lazy as _
+#from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 
 class MapNote(models.Model):

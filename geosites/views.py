@@ -27,7 +27,8 @@ from django.contrib.sites.shortcuts import get_current_site
 from django.db.models import Q
 from django.http import Http404, HttpResponse
 from django.shortcuts import redirect
-from django.utils.translation import ugettext as _
+#from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 from guardian.shortcuts import get_objects_for_user
 
 from geonode.base.models import ResourceBase

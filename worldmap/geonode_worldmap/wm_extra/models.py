@@ -3,7 +3,8 @@ import re
 from django.conf import settings
 from django.db import models
 from django.db.models import signals
-from django.utils.translation import ugettext_lazy as _
+#from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 from geonode.layers.models import Layer, Attribute
 from geonode.maps.models import Map

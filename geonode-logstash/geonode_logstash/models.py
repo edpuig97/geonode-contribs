@@ -20,7 +20,8 @@
 import uuid
 from django.db import models
 from django.conf import settings
-from django.utils.translation import ugettext_noop as _
+#from django.utils.translation import ugettext_noop as _
+from django.utils.translation import gettext_noop as _
 # from django_celery_beat.models import PeriodicTask, IntervalSchedule
 
 # center = [Lat, Lon]

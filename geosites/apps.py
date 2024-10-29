@@ -2,7 +2,8 @@ from django.apps import AppConfig
 from django.apps import apps as global_apps
 from django.db import DEFAULT_DB_ALIAS, router
 from django.db.models.signals import post_migrate
-from django.utils.translation import ugettext_lazy as _
+#from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 
 def create_default_site_relations(app_config, verbosity=2, interactive=True, using=DEFAULT_DB_ALIAS, apps=global_apps,
