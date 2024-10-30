@@ -35,7 +35,7 @@ from geonode.base.models import ResourceBase
 from geonode.documents.views import _resolve_document, document_detail
 from geonode.geoserver.helpers import ogc_server_settings
 from geonode.groups.models import GroupProfile
-from geonode.layers.models import Layer
+from geonode.resource.models import Dataset as Layer
 from geonode.layers.views import _resolve_layer, layer_detail
 from geonode.maps.views import _resolve_map, map_detail
 from geonode.utils import _get_basic_auth_info

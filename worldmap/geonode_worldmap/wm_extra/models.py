@@ -6,7 +6,7 @@ from django.db.models import signals
 #from django.utils.translation import ugettext_lazy as _
 from django.utils.translation import gettext_lazy as _
 
-from geonode.layers.models import Layer, Attribute
+from geonode.resource.models import Dataset as Layer, Attribute
 from geonode.maps.models import Map
 from geonode.people.models import Profile
 from geonode.utils import num_encode

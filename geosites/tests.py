@@ -29,7 +29,7 @@ from guardian.shortcuts import get_anonymous_user
 from guardian.shortcuts import remove_perm
 
 from geonode.people.models import Profile
-from geonode.layers.models import Layer
+from geonode.resource.models import Dataset as Layer
 from geonode.groups.models import Group, GroupProfile
 from geonode.tests.base import GeoNodeBaseTestSupport
 

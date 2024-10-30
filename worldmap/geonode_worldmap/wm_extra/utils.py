@@ -1,5 +1,5 @@
 from geonode.layers.utils import create_gs_thumbnail_geonode
-from geonode.layers.models import Layer
+from geonode.resource.models import Dataset as Layer
 from geonode.geoserver.createlayer.utils import DATA_QUALITY_MESSAGE
 
 

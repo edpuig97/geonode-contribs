@@ -22,7 +22,7 @@ from django.views.decorators.csrf import csrf_exempt
 from geonode.base.models import TopicCategory
 from geonode.documents.models import get_related_documents
 from geonode.geoserver.helpers import ogc_server_settings
-from geonode.layers.models import Layer
+from geonode.resource.models import Dataset as Layer
 from geonode.maps.models import Map, MapLayer, MapSnapshot
 from geonode.layers.views import _resolve_layer
 from geonode.maps.views import _resolve_map, _PERMISSION_MSG_VIEW, clean_config

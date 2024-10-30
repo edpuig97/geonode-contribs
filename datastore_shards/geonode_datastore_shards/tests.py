@@ -31,7 +31,7 @@ from django.conf import settings
 from django.contrib.auth import get_user_model
 
 from geonode.geoserver.signals import gs_catalog
-from geonode.layers.models import Layer
+from geonode.resource.models import Dataset as Layer
 from geonode.layers.utils import file_upload
 
 from .models import Database

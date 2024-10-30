@@ -29,7 +29,7 @@ from django.core.management import call_command
 from django.contrib.sites.models import Site
 
 from geonode.layers.utils import file_upload
-from geonode.layers.models import Layer
+from geonode.resource.models import Dataset as Layer
 
 from .populate_sites_data import create_sites
 from .models import SiteResources

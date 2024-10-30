@@ -25,7 +25,7 @@ import StringIO
 from django.db import connections
 from django.core.management import call_command
 
-from geonode.layers.models import Layer
+from geonode.resource.models import Dataset as Layer
 from .models import Region
 from .models import RiskAnalysis, HazardType
 from .models import AnalysisType, DymensionInfo

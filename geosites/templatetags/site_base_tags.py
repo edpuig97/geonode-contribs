@@ -27,7 +27,7 @@ from guardian.shortcuts import get_objects_for_user
 from geonode import settings
 from geonode.base.models import HierarchicalKeyword
 
-from geonode.layers.models import Layer
+from geonode.resource.models import Dataset as Layer
 from geonode.maps.models import Map
 from geonode.documents.models import Document
 from geonode.groups.models import GroupProfile

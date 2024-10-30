@@ -3,7 +3,7 @@ from django.utils.translation import gettext as _
 from django.contrib.gis.db import models
 from django.db.models import signals
 
-from geonode.layers.models import Layer, Attribute
+from geonode.resource.models import Dataset as Layer, Attribute
 
 # Querying postgis database for features then saving as django model object is
 # significantly slower than doing everything via SQL on postgis database only.

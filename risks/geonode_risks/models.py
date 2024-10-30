@@ -24,7 +24,7 @@ from django.db.models import Q
 from mptt.models import MPTTModel, TreeForeignKey
 from django.core import files
 from geonode.base.models import ResourceBase, TopicCategory
-from geonode.layers.models import Layer, Style
+from geonode.resource.models import Dataset as Layer, Style
 
 from jsonfield import JSONField
 import xlrd

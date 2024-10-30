@@ -21,7 +21,7 @@
 from optparse import make_option
 
 from django.core.management.base import BaseCommand, CommandError
-from geonode.layers.models import Layer
+from geonode.resource.models import Dataset as Layer
 from geonode.contrib.risks.models import RiskAnalysis, HazardType, RiskApp
 from geonode.contrib.risks.models import AnalysisType, DymensionInfo
 from geonode.contrib.risks.models import RiskAnalysisDymensionInfoAssociation

@@ -1,7 +1,7 @@
 from django.db.models.signals import post_save
 from django.contrib.auth.models import Group
 
-from geonode.layers.models import Layer
+from geonode.resource.models import Dataset as Layer
 from geonode.maps.models import Map
 from geonode.people.models import Profile
 

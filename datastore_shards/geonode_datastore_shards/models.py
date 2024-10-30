@@ -18,7 +18,7 @@
 #
 #########################################################################
 
-from geonode.layers.models import Layer
+from geonode.resource.models import Dataset as Layer
 
 from django.db import models
 from django.db.models import signals

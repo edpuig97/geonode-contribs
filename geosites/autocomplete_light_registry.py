@@ -24,7 +24,7 @@ from geonode.base.autocomplete_light_registry import ResourceBaseAutocomplete
 from geonode.documents.autocomplete_light_registry import DocumentAutocomplete
 from geonode.documents.models import Document
 from geonode.layers.autocomplete_light_registry import LayerAutocomplete
-from geonode.layers.models import Layer
+from geonode.resource.models import Dataset as Layer
 from geonode.maps.autocomplete_light_registry import MapAutocomplete
 from geonode.maps.models import Map
 from .utils import resources_for_site

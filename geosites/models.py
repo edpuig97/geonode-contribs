@@ -26,7 +26,7 @@ from django.db.models import signals
 from geonode.base.models import ResourceBase
 from geonode.documents.models import Document
 from geonode.groups.models import GroupProfile
-from geonode.layers.models import Layer
+from geonode.resource.models import Dataset as Layer
 from geonode.maps.models import Map
 from geonode.people.models import Profile
 

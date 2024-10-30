@@ -35,7 +35,7 @@ from django.utils.crypto import get_random_string
 from django.views.decorators.cache import cache_page
 
 
-from geonode.layers.models import Layer
+from geonode.resource.models import Dataset as Layer
 from geonode.utils import json_response
 from geonode.base.forms import ValuesListField
 from .models import (HazardType, AdministrativeDivision,

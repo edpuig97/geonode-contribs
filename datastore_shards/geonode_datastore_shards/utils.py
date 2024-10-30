@@ -27,7 +27,7 @@ import dj_database_url
 
 from django.conf import settings
 
-from geonode.layers.models import Layer
+from geonode.resource.models import Dataset as Layer
 
 from .models import Database
 
